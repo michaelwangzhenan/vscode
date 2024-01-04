@@ -1,0 +1,10 @@
+{
+    "ver": "1.2",
+    "server": "",
+    "port": "22",
+    "local": "",
+    "remote": "",
+    "rsa": "C:\\Users\\86137\\.ssh\\id_rsa",
+    "target": "L2PS-dev",
+    "geometry": "449x187+480+315"
+}

@@ -1,0 +1,173 @@
+Lukasz Filimowski (Nokia) <lukasz.filimowski@nokia.com>
+Santhosh Kumar Pulassery (Nokia) <santhosh.kumar_pulassery@nokia.com>
+Anoop Maddi (Nokia) <anoop.maddi@nokia.com>
+Manjunatha M J (Nokia) <manjunatha.m_j@nokia.com>
+Vaibhav 1. Agarwal (Nokia) <vaibhav.1.agarwal@nokia.com>
+Gangadhar Marishamaiah (Nokia) <gangadhar.marishamaiah@nokia.com>
+Shailendra Gaur (Nokia) <shailendra.gaur@nokia.com>
+Shiju V Punnoose (Nokia) <shiju.v_punnoose@nokia.com>
+Sudheep Shanbhogue (Nokia) <sudheep.shanbhogue@nokia.com>
+Vinay Bachu (Nokia) <vinay.bachu@nokia.com>
+Viswanathan Jeevanandham (Nokia) <viswanathan.jeevanandham@nokia.com>
+M D. Kumar (Nokia) <m.d.kumar@nokia.com>
+Chandan Kumar Mishra (Nokia) <chandan.kumar_mishra@nokia.com>
+Sudeendra Upadhyaya Paniyadi Vadhiraja (Nokia) <sudeendra.upadhyaya_paniyadi_vadhiraja@nokia.com>
+B V Sreeramulu (Nokia) <b.v_sreeramulu@nokia.com>
+Namo Narayan Singh (Nokia) <namo.narayan_singh@nokia.com>
+Ruchika Bhargava (Nokia) <ruchika.bhargava@nokia.com>
+Palani Lakshmanan (Nokia) <palani.lakshmanan@nokia.com>
+Manoj J (Nokia) <manoj.j@nokia.com>
+Rahul Kumar Tripathi (Nokia) <rahul.kumar_tripathi@nokia.com>
+Deepak Stephen (Nokia) <deepak.stephen@nokia.com>
+Gowda Narayana (Nokia) <gowda.narayana@nokia.com>
+Kalaiselvan Deivamuthu (Nokia) <kalaiselvan.deivamuthu@nokia.com>
+Vinod Aduru (Nokia) <vinod.aduru@nokia.com>
+Saurabh 7. Jain (Nokia) <saurabh.7.jain@nokia.com>
+Vasanth Kumar Regula (Nokia) <vasanth.kumar_regula@nokia.com>
+Jaroslaw Partyka (Nokia) <jaroslaw.partyka@nokia.com>
+Maciej Kupczak (Nokia) <maciej.kupczak@nokia.com>
+Filip Jachura (Nokia) <filip.jachura@nokia.com>
+Patryk Pojnar (Nokia) <patryk.pojnar@nokia.com>
+Pawel Tryba (Nokia) <pawel.tryba@nokia.com>
+Damian Palys (Nokia) <damian.palys@nokia.com>
+Inna Horbivnenko (Nokia) <inna.horbivnenko@nokia.com>
+Marek Grad (Nokia) <marek.grad@nokia.com>
+Konrad Ortyl (Nokia) <konrad.ortyl@nokia.com>
+Grzegorz Folta (Nokia) <grzegorz.folta@nokia.com>
+Sebastian Niemasik (Nokia) <sebastian.niemasik@nokia.com>
+Filip Biernat (Nokia) <filip.biernat@nokia.com>
+Jacob Velasco Mendez (Nokia) <jacob.velasco_mendez@nokia.com>
+Agnes Cases (Nokia) <agnes.cases@nokia.com>
+Patrick Moisy (Nokia) <patrick.moisy@nokia.com>
+Gabriel Linden (Nokia) <gabriel.linden@nokia.com>
+Fabienne Roosen (Nokia) <fabienne.roosen@nokia.com>
+Eric Joubert (Nokia) <eric.joubert@nokia.com>
+Didier Michenaud (Nokia) <didier.michenaud@nokia.com>
+Olivier OBe. Berger (Nokia) <olivier.obe.berger@nokia.com>
+Gerard Lenglet (Nokia) <gerard.lenglet@nokia.com>
+Ngoc Duy Nguyen (Nokia) <ngoc_duy.nguyen@nokia.com>
+Mathieu Fourticq-Tire (Nokia) <mathieu.fourticq-tire@nokia.com>
+Maria Rivera Sanchez (Nokia) <maria.rivera_sanchez@nokia.com>
+Philippe Vincent (Nokia) <philippe.vincent@nokia.com>
+Rodolphe Reau (Nokia) <rodolphe.reau@nokia.com>
+Sebastien Boch (Nokia) <sebastien.boch@nokia.com>
+Senda Saidane (Nokia) <senda.saidane@nokia.com>
+Desire Guel (Nokia) <desire.guel@nokia.com>
+Alexis Germaneau (Nokia) <alexis.germaneau@nokia.com>
+Catherine Chenu (Nokia) <catherine.chenu@nokia.com>
+Damien Phan (Nokia) <damien.phan@nokia.com>
+Pierre Guillaume (Nokia) <pierre.guillaume@nokia.com>
+Marc Freynet (Nokia) <marc.freynet@nokia.com>
+Marc Wallois (Nokia) <marc.wallois@nokia.com>
+Deepakprabhu Kanlur (Nokia) <deepakprabhu.kanlur@nokia.com>
+Dinesh Jayabalakrishnan (Nokia) <dinesh.jayabalakrishnan@nokia.com>
+Rajesh G (Nokia) <rajesh.g@nokia.com>
+Vivek Gv (Nokia) <vivek.gv@nokia.com>
+Moidunnikutty Panthalayiltharayil (Nokia) <moidunnikutty.panthalayiltharayil@nokia.com>
+Vasantha Rajan (Nokia) <vasantha.rajan@nokia.com>
+Shilpkala Kulkarni (Nokia) <shilpkala.kulkarni@nokia.com>
+Karthikeyan M B (Nokia) <karthikeyan.m_b@nokia.com>
+Prajith Kumar (Nokia) <prajith.kumar@nokia.com>
+Mohammed Riaz (Nokia) <mohammed.riaz@nokia.com>
+Jagdish Narayan (Nokia) <jagdish.narayan@nokia.com>
+Eda Raja Moses Manoj Kumar (Nokia) <eda.raja_moses_manoj_kumar@nokia.com>
+Murali Phani S V (Nokia) <murali.phani_s_v@nokia.com>
+Ranjana Navalde (Nokia) <ranjana.navalde@nokia.com>
+Padmaja Ramachandra Rao (Nokia) <padmaja.ramachandra_rao@nokia.com>
+VinodKumar KK (Nokia) <vinodkumar.kk@nokia.com>
+Madhukara M V (Nokia) <madhukara.m_v@nokia.com>
+Mohit Menghnani (Nokia) <mohit.menghnani@nokia.com>
+Adam Rogoz (Nokia) <adam.rogoz@nokia.com>
+Michal Fiejka (Nokia) <michal.fiejka@nokia.com>
+Wojciech Musial (Nokia) <wojciech.musial@nokia.com>
+Grzegorz Gackowski (Nokia) <grzegorz.gackowski@nokia.com>
+Michal Dudek (Nokia) <michal.dudek@nokia.com>
+Marcin Skowronski (Nokia) <marcin.skowronski@nokia.com>
+Rafal Szeszol (Nokia) <rafal.szeszol@nokia.com>
+Andrzej Cholewinski (Nokia) <andrzej.cholewinski@nokia.com>
+Witold Gramatyka (Nokia) <witold.gramatyka@nokia.com>
+Bogdan Orzechowski (Nokia) <bogdan.orzechowski@nokia.com>
+Slawomir Cichon (Nokia) <slawomir.cichon@nokia.com>
+Jurek Kolek (Nokia) <jurek.kolek@nokia.com>
+Tomasz Skala (Nokia) <tomasz.skala@nokia.com>
+Lukasz Ogorzaly (Nokia) <lukasz.ogorzaly@nokia.com>
+Wojciech Glowacki (Nokia) <wojciech.glowacki@nokia.com>
+Marek Rozwadowski (Nokia) <marek.rozwadowski@nokia.com>
+Jean-Paul Cloarec (Nokia) <jean-paul.cloarec@nokia.com>
+NATHALIE.YACINE@NOKIA.COM
+Eric Auge (Nokia) <eric.auge@nokia.com>
+Ali Cheaito (Nokia) <ali.cheaito@nokia.com>
+Sebastien Guet (Nokia) <sebastien.guet@nokia.com>
+Pascal Lavignas (Nokia) <pascal.lavignas@nokia.com>
+Eric Colaviti (Nokia) <eric.colaviti@nokia.com>
+Marianne Bignon (Nokia) <marianne.bignon@nokia.com>
+Bertrand Godet (Nokia) <bertrand.godet@nokia.com>
+Eduardo Martinez Moreno (Nokia) <eduardo.martinez_moreno@nokia.com>
+Costin Cerchez (Nokia) <costin.cerchez@nokia.com>
+Dominique Pauly (Nokia) <dominique.pauly@nokia.com>
+Danielle Sun (Nokia) <danielle.sun@nokia.com>
+Juliette Delevoy (Nokia) <juliette.delevoy@nokia.com>
+Pape Toure (Nokia) <pape.toure@nokia.com>
+Isabelle Mitri (Nokia) <isabelle.mitri@nokia.com>
+Severine Auburtin (Nokia) <severine.auburtin@nokia.com>
+Frederic Ribert (Nokia) <frederic.ribert@nokia.com>
+Laxman Chauhan (Nokia) <laxman.chauhan@nokia.com>
+Alexis Boissier (Nokia) <alexis.boissier@nokia.com>
+Morgan 1. Cormier (Nokia) <morgan.1.cormier@nokia.com>
+Bernd Becker (Nokia) <bernd.becker@nokia.com>
+Henry Wiechert (Nokia) <henry.wiechert@nokia.com>
+Marian Beniac (Nokia) <marian.beniac@nokia.com>
+Semen Antonov (Nokia) <semen.antonov@nokia.com>
+Stephan Fackler (Nokia) <stephan.fackler@nokia.com>
+Dominik Jaeger (Nokia) <dominik.jaeger@nokia.com>
+Andre Gille (Nokia) <andre.gille@nokia.com>
+Stefan Kempf (Nokia) <stefan.kempf@nokia.com>
+Patrizia Melotti (Nokia) <patrizia.melotti@nokia.com>
+Niranjan Changalarayappa (Nokia) <niranjan.changalarayappa@nokia.com>
+Marcin 2. Dabrowski (Nokia) <marcin.2.dabrowski@nokia.com>
+Piotr Blazejewski (Nokia) <piotr.blazejewski@nokia.com>
+Krzysztof Makol (Nokia) <krzysztof.makol@nokia.com>
+Maciej Dylus (Nokia) <maciej.dylus@nokia.com>
+Mariusz Sikorski (Nokia) <mariusz.sikorski@nokia.com>
+Bartosz Benedyktowicz (Nokia) <bartosz.benedyktowicz@nokia.com>
+Michal Markiewicz (Nokia) <michal.markiewicz@nokia.com>
+Michal Figurski (Nokia) <michal.figurski@nokia.com>
+Pawel Rusinek (Nokia) <pawel.rusinek@nokia.com>
+Olgierd Sobinski (Nokia) <olgierd.sobinski@nokia.com>
+Jakub Skretkowicz (Nokia) <jakub.skretkowicz@nokia.com>
+Dariusz Berezowski (Nokia) <dariusz.berezowski@nokia.com>
+Szymon Cichy (Nokia) <szymon.cichy@nokia.com>
+Pawel Samulak (Nokia) <pawel.samulak@nokia.com>
+Piotr Wlodarek (Nokia) <piotr.wlodarek@nokia.com>
+Bartosz Zablotny (Nokia) <bartosz.zablotny@nokia.com>
+Sebastian Burniak (Nokia) <sebastian.burniak@nokia.com>
+Maciej 2. Lewandowski (Nokia) <maciej.2.lewandowski@nokia.com>
+Magdalena Centkowska (Nokia) <magdalena.centkowska@nokia.com>
+Marta Nowosad (Nokia) <marta.nowosad@nokia.com>
+Agnieszka Czech-Danielska (Nokia) <agnieszka.czech-danielska@nokia.com>
+Joanna Borkowska (Nokia) <joanna.borkowska@nokia.com>
+Leon Alrae (Nokia) <leon.alrae@nokia.com>
+Rui Feng Wang (NSB) <rui_feng.wang@nokia-sbell.com>
+Ting 3. Zhou (NSB) <ting.3.zhou@nokia-sbell.com>
+Panzer Gu (NSB) <panzer.gu@nokia-sbell.com>
+Minghui Wei (NSB) <minghui.wei@nokia-sbell.com>
+Zeny Shi (NSB) <zeny.shi@nokia-sbell.com>
+Ying Cao (NSB) <ying.cao@nokia-sbell.com>
+Linjiang Deng (NSB) <linjiang.deng@nokia-sbell.com>
+Liying Geng (NSB) <liying.geng@nokia-sbell.com>
+Joseph Zhou (NSB) <joseph.zhou@nokia-sbell.com>
+Jiankai Chen (NSB) <jiankai.chen@nokia-sbell.com>
+Feng 1. Jin (NSB) <feng.1.jin@nokia-sbell.com>
+Yuanying Xie (NSB) <yuanying.xie@nokia-sbell.com>
+Qiyan Yu (NSB) <qiyan.yu@nokia-sbell.com>
+Amir Jiang (NSB) <amir.jiang@nokia-sbell.com>
+Yucheng Wang (NSB) <yucheng.wang@nokia-sbell.com>
+Degeng Wei (NSB) <degeng.wei@nokia-sbell.com>
+James 3. Zhang (NSB) <james.3.zhang@nokia-sbell.com>
+Michael 1. Wang (NSB) <michael.1.wang@nokia-sbell.com>
+Xiaodan Chen (NSB) <xiaodan.chen@nokia-sbell.com>
+Kefeng Liu (NSB) <kefeng.liu@nokia-sbell.com>
+Haifeng Wang (NSB) <haifeng.wang@nokia-sbell.com>
+Enqing Lei (NSB) <enqing.lei@nokia-sbell.com>
+Bo 3. Li (NSB) <bo.3.li@nokia-sbell.com>
+Haifeng Qian (NSB) <haifeng.qian@nokia-sbell.com>
