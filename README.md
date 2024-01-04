@@ -1,2 +1,2 @@
 # Python
-for python study 
+For python study 
