@@ -33,7 +33,7 @@ def test():
     search.close()  # close()⽅法关闭⼀个协程
 
 
-# test()
+test()
 
 
 # TBD
