@@ -1,4 +1,5 @@
 import json
+from pprint import pprint
 
 
 def test_json():
@@ -9,11 +10,11 @@ def test_json():
         'Url': 'http://www.runoob.com'
         }
 
-    json_str = json.dumps(data)  # 返回一个json str,不能写文件
+    json_str = json.dumps(data)  # 返回一个 str
     loads = json.loads(json_str)  # 从 json str 中读取
-    print("data : ", data)
-    print("json : ", json_str)
-    print("loads : ", loads)
+    print("type=", type(data), "content : ", data)
+    print("type=", type(json_str), "content : ", json_str)
+    print("type=", type(loads), "content : ", loads)
 
     with open('data.json', 'w') as f:
         json.dump(data, f, indent=4)  # 将json 对象写入文件
