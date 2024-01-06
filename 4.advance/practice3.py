@@ -37,8 +37,8 @@ test()
 
 
 # TBD
-    # C 扩展
-    # python 2/3 兼容
-    # 协程(Coroutine)
-    # 函数缓存(Function caching)
-    # 上下⽂管理器(Context managers)
+# C 扩展
+# python 2/3 兼容
+# 协程(Coroutine)
+# 函数缓存(Function caching)
+# 上下⽂管理器(Context managers)
