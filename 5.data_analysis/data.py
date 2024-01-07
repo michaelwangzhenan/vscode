@@ -1,5 +1,5 @@
 import json
-from collections import defaultdict
+from collections import defaultdict, Counter
 
 
 def convert_json():
@@ -20,6 +20,7 @@ def count_tz():
     for data in set_tz:
         tz_count.append((data, tzs.count(data)))
     tz_count.sort(key=lambda i: i[1], reverse=True)
+    print("count_tz", "="*100)
     print(tz_count[:10])
 
 
@@ -37,8 +38,20 @@ def count_tz2():
     tz_list = [(count, addr) for addr, count in tz_count.items()]
     tz_list.sort(reverse=True)
     # tz_list.reverse()
-    print("="*100)
+    print("count_tz2", "="*100)
     print(tz_list[:10])
 
 
 count_tz2()
+
+
+def count_tz3():
+    file = "5.data_analysis/data/bitly_usagov.txt"
+    content = [json.loads(line) for line in open(file, "r", encoding='utf-8')]
+    tzs = [item['tz'] for item in content if 'tz' in item and item['tz'] != '']
+    count = Counter(tzs)
+    print("count_tz3", "="*100)
+    print(count.most_common(10))
+
+
+count_tz3()

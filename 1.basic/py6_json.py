@@ -29,6 +29,7 @@ def test_json():
         f.seek(0)
         json_note = json.load(f)
     print("note : ", json_note)
+    pprint(json_note)  # better print format
 
 
 test_json()

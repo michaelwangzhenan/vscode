@@ -1,3 +1,6 @@
+from collections import Counter
+
+
 # 1 for ... else
 def for_else():
     prime_less100 = []
@@ -33,8 +36,18 @@ def test():
     search.close()  # close()⽅法关闭⼀个协程
 
 
-test()
+# test()
 
+
+# 2 Counter : 就是一个字典，对输入的每个元素进行计数
+def counter_():
+    file = "3.data_plot/data/death_valley_2018_full.csv"
+    with open(file) as f:
+        cf = Counter(f)  # 每个文件行作为key，两行一样就计数为2
+        print(cf.total())  # 文件的行数
+
+
+counter_()
 
 # TBD
 # C 扩展
