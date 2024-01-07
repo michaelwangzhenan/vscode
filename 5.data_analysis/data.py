@@ -24,9 +24,6 @@ def count_tz():
     print(tz_count[:10])
 
 
-count_tz()
-
-
 def count_tz2():
     file = "5.data_analysis/data/bitly_usagov.txt"
     content = [json.loads(line) for line in open(file, "r", encoding='utf-8')]
@@ -42,9 +39,6 @@ def count_tz2():
     print(tz_list[:10])
 
 
-count_tz2()
-
-
 def count_tz3():
     file = "5.data_analysis/data/bitly_usagov.txt"
     content = [json.loads(line) for line in open(file, "r", encoding='utf-8')]
@@ -54,4 +48,6 @@ def count_tz3():
     print(count.most_common(10))
 
 
-count_tz3()
+# count_tz()
+# count_tz2()
+# count_tz3()
