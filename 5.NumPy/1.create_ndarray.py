@@ -2,12 +2,12 @@ import numpy as np
 
 
 def print_attribute(ndarr):
-    print("ndarray:\n", ndarr)
-    print("ndim =", ndarr.ndim)
-    print("shape =", ndarr.shape)
-    print("size =", ndarr.size)
+    # print("ndarray:\n", ndarr)
+    # print("ndim =", ndarr.ndim)
+    # print("shape =", ndarr.shape)
+    # print("size =", ndarr.size)
     print("dtype =", ndarr.dtype)
-    print("itemszie =", ndarr.itemsize)
+    # print("itemszie =", ndarr.itemsize)
 
 
 def ndarray_int():
@@ -27,7 +27,7 @@ def ndarray_int():
     print_attribute(big_arr)
 
 
-ndarray_int()
+# ndarray_int()
 
 
 def ndarray_dtype():
@@ -37,17 +37,26 @@ def ndarray_dtype():
     arr2 = np.array([(1.5, 2, 3), (4, 5, 6)])
     print_attribute(arr2)
 
-    arr3 = np.array([1, 3, 5], dtype=float)
+    arr3 = np.array([1, 3, 5], dtype=np.float32)
     print_attribute(arr3)
 
-    arr3 = np.array([1, 3+4j, 5], dtype=complex)
+    arr3 = np.array([1, 3+4j, 5], dtype=np.complex128)
     print_attribute(arr3)
 
-    arr5 = np.array([1, 3, 5], dtype=np.int64)
+    arr5 = np.array([1, 3, 5], dtype=np.uint16)
     print_attribute(arr5)
 
+    arr6 = arr.astype('f2')
+    print_attribute(arr6)
 
-# ndarray_dtype()
+    arr7 = arr.astype('i4')
+    print_attribute(arr7)
+
+    arr8 = arr.astype(np.bool_)
+    print_attribute(arr8)
+
+
+ndarray_dtype()
 
 
 def ndarray_init():
@@ -83,3 +92,14 @@ def ndarray_linspace():
 
 
 # ndarray_linspace()
+
+
+def ndarray_eye():
+    a = np.eye(5)  # 返回一个NxN的单位矩阵（对角线时1，其余为0）
+    print(a)
+
+    b = np.identity(4)  # same as eye
+    print(b)
+
+
+# ndarray_eye()

@@ -73,4 +73,13 @@ def ndarray_axis():
     # print(b.max(axis=2))
 
 
-ndarray_axis()
+# ndarray_axis()
+
+
+def pi_calc():
+    a = np.arange(1, 20)
+    print(3.14*a)
+    print(3.14*a**2)
+
+
+pi_calc()
