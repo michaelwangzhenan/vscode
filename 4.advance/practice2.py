@@ -162,8 +162,9 @@ def func_zip():
     tuple1 = ('A', 'B', 'C', 'D', 'E')
     # zip() 函数将可迭代的对象作为参数，将对象中对应的元素打包成一个个元组。如果各个迭代器的元素个数不一致，则返回列表长度与最短的对象相同
     zip_obj = zip(list1, list2, tuple1)
-    print(zip_obj)
+    print(zip_obj, type(zip_obj))
     print(list(zip_obj))  # 转换成列表
+    print(zip_obj, type(zip_obj))
 
     # zip(*) 为解压, 返回成 tuple
     zip_obj2 = zip(list1, list2, tuple1)
@@ -172,8 +173,12 @@ def func_zip():
     print(unziped2)
     print(unziped3)
 
+    # 直接使用zip
+    for x, y, z in zip(list1, list2, tuple1):
+        print(x, y, z)
 
-# func_zip()
+
+func_zip()
 
 
 # 7 lambda adavance

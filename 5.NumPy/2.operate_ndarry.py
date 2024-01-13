@@ -1,4 +1,6 @@
 import numpy as np
+from random import normalvariate
+from timeit import timeit
 
 
 def operation():
@@ -37,6 +39,17 @@ def random_test():
     b = np.random.random((2, 3))  # Return random floating point number in the range 0.0 <= X < 1.0
     print(b)
 
+    N = 1_000_000
+
+    def norm():
+        [normalvariate(0, 1) for i in range(N)]
+
+    def npnorm():
+        np.random.normal(size=N)
+
+    print(timeit(stmt=norm, number=1))
+    print(timeit(stmt=npnorm, number=1))  # NumPy 的性能高得多
+
 
 # random_test()
 
@@ -49,6 +62,11 @@ def ndarray_function():
     b = np.random.random((2, 3))  # Return random floating point number in the range 0.0 <= X < 1.0
     print(b)
     print(b.sum(), b.max(), b.min())
+
+    bool_array = np.array([1, 0, 0, 1, 1])
+    print(bool_array.any())
+    print(bool_array.all())
+    print(bool_array.sum())
 
 
 # ndarray_function()
@@ -82,4 +100,31 @@ def pi_calc():
     print(3.14*a**2)
 
 
-pi_calc()
+# pi_calc()
+
+
+def bool_slice():
+    arr = np.arange(20).reshape(4, 5)
+    print(arr)
+    index = np.array(['a', 'b', 'a', 'd'])
+    print(index == 'a')
+    print(arr[index == 'a'])
+    print(arr[index == 'a', 2:4])
+
+    print(arr > 10)
+    arr[arr > 10] = 100
+    print(arr)
+
+
+# bool_slice()
+
+
+def try_meshgrid():
+    a1 = np.arange(5)
+    a2 = np.arange(5, 12)
+    x, y = np.meshgrid(a1, a2)
+    print(x)
+    print(y)
+
+
+# try_meshgrid()
