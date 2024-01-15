@@ -43,9 +43,46 @@ def try_series():
 # try_series()
 
 
-
 def try_DataFrame():
+    data = {'fruit': ['Apple', 'Orange', ' Banana', 'Watermelon'],
+            'weight': ['5', '8', '100', '77'],
+            'quantity': ['Good', 'Bad', 'Better', 'Perfect']}
+    frame = DataFrame(data)
+    print(frame)
+
+    frame2 = DataFrame(data, columns=['weight', 'fruit', 'quantity'])  # 指定列的顺序
+    print(frame2)
+
+    frame3 = DataFrame(data, columns=['fruit', 'quantity', 'weight', 'taste'],   # 列不存在，值为Nan
+                       index=['alpha', 'beta', 'cache', 'delta'])  # 指定 index 名
+    print(frame3)
+    print(frame3.fruit, type(frame3.fruit))  # 访问列，列是一个Series
+    print(frame3['taste'])  # 访问列的另一种方式
+    print(frame3.loc['alpha'])  # 选择行， 行也是一个Series
+    print(frame3.iloc[0])  # index选择行
+
+    frame3.taste = 'woo!!'  # 设置一列所有值
+    frame3['taste']['beta'] = 'ahh~~'  # 设置一个值
+    print(frame3)
+
+    frame3.columns.name = 'Summary'  # 列名
+    frame3.index.name = 'Index'  # 行名
+    print(frame3)
+    print(frame3.index)
+    print(frame3.columns)
+    print(frame3['taste'].index)  # DataFrame 的列共享 Index
+
+    index1 = frame.index
+    index3 = frame3.index
+    print(index1)
+    print(index3)
+    indexa = index1.append(index3)  # Index 是不可修改的，函数操作都会返回要一个新的Index
+    print(indexa)
+    print(index1.difference(index3))
+    print(index3.insert(3, 'i'))
+    print(index3.isin(indexa))
+    print(index3.isin(index1))
+    print(indexa.isin(index1))
 
 
-
-try_DataFrame()
+# try_DataFrame()
