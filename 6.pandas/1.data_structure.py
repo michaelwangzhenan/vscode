@@ -85,4 +85,4 @@ def try_DataFrame():
     print(indexa.isin(index1))
 
 
-# try_DataFrame()
+try_DataFrame()

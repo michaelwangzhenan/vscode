@@ -51,7 +51,7 @@ def random_test():
     print(timeit(stmt=npnorm, number=1))  # NumPy 的性能高得多
 
 
-random_test()
+# random_test()
 
 
 def ndarray_function():
@@ -127,4 +127,4 @@ def try_meshgrid():
     print(y)
 
 
-# try_meshgrid()
+try_meshgrid()
