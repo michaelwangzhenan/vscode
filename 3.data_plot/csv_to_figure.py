@@ -52,4 +52,18 @@ def plt_plot(inputs):
     plt.show()
 
 
-plt_plot(get_temperture())
+# plt_plot(get_temperture())
+
+
+def try_csv():
+    filename = "3.data_plot/data/death_valley_2018_simple.csv"
+    with open(filename) as f:
+        reader = list(csv.reader(f))
+        head, data = reader[0], reader[1:]
+        dict = {k: v for k, v in zip(head, zip(*data))}
+
+    print(dict[list(dict.keys())[0]])
+    # print(len(list(dict.values())[0]))
+
+
+try_csv()

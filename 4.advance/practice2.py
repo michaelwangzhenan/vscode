@@ -1,6 +1,7 @@
 from collections import defaultdict
 from pprint import pprint
 import inspect
+import numpy as np
 
 # 1 dict.get / dict.setdefault 和 defaultdict
 
@@ -74,7 +75,7 @@ def dict_advance():
     print(nest_dict['a']['Bob']['Black'])
 
 
-dict_advance()
+# dict_advance()
 
 
 # 2 enumerate 函数
@@ -177,6 +178,16 @@ def func_zip():
     for x, y, z in zip(list1, list2, tuple1):
         print(x, y, z)
 
+    # zip(*) 拆解一个多维列表, 结果是 元组
+    input1 = [[1, 4], [2, 5], [3, 6]]
+    print(input1)
+    for x in zip(*input1):
+        print(x)
+
+    input2 = np.arange(24).reshape((8, 3))
+    print(input2)
+    for y in zip(*input2):
+        print(y)
 
 func_zip()
 
