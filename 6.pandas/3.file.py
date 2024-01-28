@@ -1,4 +1,4 @@
-from pandas import Series, DataFrame
+from pandas import Series
 import pandas as pd
 
 

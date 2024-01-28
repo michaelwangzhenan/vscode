@@ -10,8 +10,9 @@ def test_json():
         'Url': 'http://www.runoob.com'
         }
 
-    json_str = json.dumps(data)  # 返回一个 str
-    loads = json.loads(json_str)  # 从 json str 中读取
+    json_str = json.dumps(data)  # dict 转成 str
+    loads = json.loads(json_str)  # str 转成 dict
+
     print("type=", type(data), "content : ", data)
     print("type=", type(json_str), "content : ", json_str)
     print("type=", type(loads), "content : ", loads)
@@ -33,3 +34,9 @@ def test_json():
 
 
 test_json()
+
+
+# TODO
+# pandas.read_json
+# pandas.DataFrame.to_json
+# pandas.Series.to_json

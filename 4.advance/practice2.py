@@ -189,6 +189,7 @@ def func_zip():
     for y in zip(*input2):
         print(y)
 
+
 func_zip()
 
 
