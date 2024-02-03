@@ -39,8 +39,10 @@ def try_series():
     series4.index = [1, 2, 3]  # 通过赋值修改 index
     print(series4)
 
+    print(series4.str.findall('a'))
 
-# try_series()
+
+try_series()
 
 
 def try_DataFrame():
@@ -85,4 +87,4 @@ def try_DataFrame():
     print(indexa.isin(index1))
 
 
-try_DataFrame()
+# try_DataFrame()
