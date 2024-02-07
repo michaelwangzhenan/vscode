@@ -69,13 +69,19 @@ def xy_axis():
 
 
 def series_plot():
-    s = Series(np.random.randn(10).cumsum(), index=np.arange(10))
-    s.plot()
+    fig, axes = plt.subplots(2, 2, figsize=(12, 8))
+    s1 = Series(np.random.randn(10).cumsum(), index=np.arange(10))
+    s1.plot(ax=axes[0, 0], style='g-')
+
+    s2 = Series(np.random.rand(10), index=list('abcdefghij'))
+    s2.plot(ax=axes[0, 0], color='pink')
+    s2.plot(ax=axes[1, 0], kind='bar')
+    s2.plot(ax=axes[1, 1], kind='barh', color='r', alpha=0.5)
 
     plt.show()
 
 
-# series_plot()
+series_plot()
 
 
 def dataframe_plot():
@@ -88,4 +94,4 @@ def dataframe_plot():
     plt.show()
 
 
-dataframe_plot()
+# dataframe_plot()
