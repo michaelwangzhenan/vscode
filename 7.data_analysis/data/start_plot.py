@@ -69,29 +69,35 @@ def xy_axis():
 
 
 def series_plot():
-    fig, axes = plt.subplots(2, 2, figsize=(12, 8))
+    fig, axes = plt.subplots(3, 2, figsize=(12, 8))
     s1 = Series(np.random.randn(10).cumsum(), index=np.arange(10))
     s1.plot(ax=axes[0, 0], style='g-')
 
     s2 = Series(np.random.rand(10), index=list('abcdefghij'))
+    print(s2)
     s2.plot(ax=axes[0, 0], color='pink')
-    s2.plot(ax=axes[1, 0], kind='bar')
+    s2.plot(ax=axes[1, 0], kind='bar')  # 柱状图
     s2.plot(ax=axes[1, 1], kind='barh', color='r', alpha=0.5)
 
+    s2.hist(ax=axes[0, 1])  # 直方图(histogram)
     plt.show()
 
 
-series_plot()
+# series_plot()
 
 
 def dataframe_plot():
+    fig, axes = plt.subplots(2, 2, figsize=(12, 8))
     df = DataFrame(np.arange(3*5).reshape((5, 3)), columns=['apple', 'banana', 'cap'])
     df['apple'] = [2, 5, 77, 110, 66]
     df['banana'] = [1, 66, 36, 50, 38]
     df['cap'] = [63, 34, 84, 22, 65]
-    df.plot()  # DataFrame plot 为每列画一条线，并创建图例
+    df.plot(ax=axes[0, 0])  # DataFrame plot 为每【列】画一条线，并创建图例
+    df.plot(ax=axes[1, 0], kind='bar')  # DataFrame 柱状图 为每【行】的值作为一个非组，并创建图例
+    df.plot(ax=axes[1, 1], kind='barh')
 
+    df.plot(ax=axes[0, 1], kind='bar', stacked=True)  # 堆积图
     plt.show()
 
 
-# dataframe_plot()
+dataframe_plot()
