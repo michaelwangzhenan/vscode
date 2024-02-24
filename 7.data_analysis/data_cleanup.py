@@ -18,3 +18,5 @@ print(grouped.size())
 print(grouped.get_group('a'))
 # print(grouped.get_group('b'))
 # print(grouped.mean())
+print(list(grouped.groups.keys()))
+

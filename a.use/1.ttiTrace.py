@@ -17,13 +17,14 @@ grouped_buffer = buffer['rrmBufferedDataDlTotal'].groupby(buffer['rnti'])
 # print(grouped_buffer.ngroups)
 print(grouped_buffer.size())
 # print(grouped_buffer.get_group(793))
-
+rntis = list(grouped_buffer.groups.keys())
 
 fig = plt.figure(figsize=(12, 8))
 ax1 = fig.add_subplot(2, 2, 1)
-grouped_buffer.get_group(793).plot(ax=ax1)
-grouped_buffer.get_group(1361).plot(ax=ax1)
-# grouped_buffer.get_group(60809).plot(ax=ax1)
+
+rntis_to_plot = rntis[17:22]
+for rnti in rntis_to_plot:
+    grouped_buffer.get_group(rnti).plot(ax=ax1)
 
 ax2 = fig.add_subplot(2, 2, 2)
 df = DataFrame({'793': grouped_buffer.get_group(793),
