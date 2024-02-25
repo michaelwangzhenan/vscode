@@ -16,7 +16,6 @@ grouped_buffer = buffer['rrmBufferedDataDlTotal'].groupby(buffer['rnti'])
 # print(type(grouped_buffer))
 # print(grouped_buffer.ngroups)
 print(grouped_buffer.size())
-# print(grouped_buffer.get_group(793))
 rntis = list(grouped_buffer.groups.keys())
 
 fig = plt.figure(figsize=(12, 8))
