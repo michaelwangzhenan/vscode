@@ -83,7 +83,7 @@ def series_plot():
     plt.show()
 
 
-# series_plot()
+series_plot()
 
 
 def dataframe_plot():
@@ -100,4 +100,4 @@ def dataframe_plot():
     plt.show()
 
 
-dataframe_plot()
+# dataframe_plot()
