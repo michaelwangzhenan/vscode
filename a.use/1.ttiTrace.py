@@ -11,14 +11,11 @@ buffer = DataFrame({'xsfn': tti_dataframe['sfn']*10 + tti_dataframe['slot'],
                     'rnti': tti_dataframe['rnti'],
                     'rrmBufferedDataDlTotal': tti_dataframe['dlFdSchedData.rrmBufferedDataDlTotal']})
 buffer = buffer.dropna(axis=0, how='any')  # 去除 Nan 行
-# print(buffer)
 
-grouped_buffer = buffer['rrmBufferedDataDlTotal'].groupby(buffer['rnti'])
-grouped_xsfn = buffer['xsfn'].groupby(buffer['rnti'])
-# print(type(grouped_buffer))
-# print(grouped_buffer.ngroups)
-# print(grouped_buffer.size())
-rntis = list(grouped_buffer.groups.keys())
+grouped = buffer.groupby(buffer['rnti'])
+grouped_buffer = grouped['rrmBufferedDataDlTotal']  # buffer['rrmBufferedDataDlTotal'].groupby(buffer['rnti'])
+grouped_xsfn = grouped['xsfn']  # buffer['xsfn'].groupby(buffer['rnti'])
+rntis = list(grouped.groups.keys())
 
 fig = plt.figure(figsize=(12, 8))
 ax1 = fig.add_subplot(2, 2, 1)
@@ -36,9 +33,15 @@ ax1.set_xlabel("xsfn", fontsize=16)
 ax1.set_ylabel("buffer", fontsize=16)
 ax1.legend(loc='best')
 
-# df = DataFrame(rntis_to_plot_df)
-df = DataFrame(grouped_buffer.get_group(rntis[0]))
-df.dropna(axis=0, how='any')
+
+df = DataFrame({rntis[17]: list(grouped_buffer.get_group(rntis[17]))}, index=list(grouped_xsfn.get_group(rntis[17])))
+df18 = DataFrame({rntis[18]: list(grouped_buffer.get_group(rntis[18]))}, index=list(grouped_xsfn.get_group(rntis[18])))
+
+df = df.add(df18, fill_value=0)
+# df = df.fillna(0)
+# df = df.dropna(axis=0, how='any')  # 去除 Nan 行
+
+print(df[rntis[17]][0:20])
 df.plot(ax=ax2)
 
 plt.show()
