@@ -52,7 +52,7 @@ def plt_plot(inputs):
     plt.show()
 
 
-# plt_plot(get_temperture())
+plt_plot(get_temperture())
 
 
 def try_csv():
@@ -66,4 +66,4 @@ def try_csv():
     # print(len(list(dict.values())[0]))
 
 
-try_csv()
+# try_csv()
