@@ -1,0 +1,9 @@
+在Python的re模块中&#xff0c;修饰符&#xff08;modifiers&#xff09;是用于修改正则表达式匹配行为的标记。这些修饰符以单个字母的形式表示&#xff0c;并以<code>re.</code>作为前缀。
+下面是一些常用的修饰符&#xff1a;
+<code>re.I</code>&#xff08;或 <code>re.IGNORECASE</code>&#xff09;&#xff1a;表示忽略大小写&#xff0c;使得匹配对大小写不敏感。
+<code>re.M</code>&#xff08;或 <code>re.MULTILINE</code>&#xff09;&#xff1a;表示多行模式&#xff0c;使得<code>^</code>和<code>$</code>能够匹配字符串中每行的开始和结束位置。
+<code>re.S</code>&#xff08;或 <code>re.DOTALL</code>&#xff09;&#xff1a;表示点号&#xff08;<code>.</code>&#xff09;匹配任意字符&#xff0c;包括换行符。
+<code>re.X</code>&#xff08;或 <code>re.VERBOSE</code>&#xff09;&#xff1a;表示忽略正则表达式中的空白字符&#xff0c;并允许使用行内注释。
+这些修饰符可以通过在调用re模块函数时作为可选参数传递给函数来应用。
+例如&#xff0c;使用修饰符<code>re.I</code>来进行大小写不敏感的匹配&#xff1a;
+在上述示例中&#xff0c;我们使用<code>re.I</code>修饰符将匹配模式设为不区分大小写。因此&#xff0c;即使模式中的字母是小写的&#xff0c;它仍然可以匹配到字符串中的大写字母开头的单词。

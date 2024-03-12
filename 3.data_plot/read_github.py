@@ -11,8 +11,7 @@ class Repository_Info:
         self.labels = []
 
     def get_repo_info(self):
-        headers = {'Accept': 'application/vnd.github.v3+json'}
-
+        headers = {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'}
         r = requests.get(self.url, headers=headers)
         # print(type(r))
         # # print(r.status_code)
